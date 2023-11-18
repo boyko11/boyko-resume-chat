@@ -1,5 +1,3 @@
-
-var BASE_URL = window.location.hostname === 'localhost' ? '' : '/chat';
 let chatId = null;
 
 document.getElementById('chatForm').addEventListener('submit', async function(e) {
@@ -19,7 +17,7 @@ document.getElementById('chatForm').addEventListener('submit', async function(e)
     loadingIndicator.style.display = 'flex';
 
     try {
-        const response = await fetch(BASE_URL + '/query', {
+        const response = await fetch('/query', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
