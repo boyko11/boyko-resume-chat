@@ -15,77 +15,97 @@ I'm an engineer with hands-on experience in a variety of programming languages a
 
 ---WORK EXPERIENCE---
 
-  * February 2023
-    Senior Engineer at Mantium, Columbus
-      
-  Enabled Customers to Search and Chat with their Data: Developed RAG (Retriever Augmented Generation) pipelines and integrated with OpenAI interfaces, enabling customers to conduct semantic searches and chat interactions over various data sources.
-  Fine-Tuning of GPT LLMs: Fine-tuned OpenAI's GPT Large Language Models to specific datasets, enhancing model relevance and accuracy.
-  Building Fine-Tuning Pipelines: Established fine-tuning pipelines, encompassing data acquisition, preprocessing, synthesis, hyperparameter tuning, and integration with the fine-tuned models.
-  Troubleshooting RAG Pipelines: Diagnosed and resolved issues within RAG pipelines, including text embedding, storage in vector databases and querying for document retrieval to enrich LLM prompts.
-  Enabling Chat over JSON documents: Used OpenAI's Assistant API to enable customers to effectively query their JSON documents
-  Optimized for Performance: Improved data processing speed by vectorizing code using Pandas.
-  Cloud Provider Code Abstraction: Abstracted cloud provider-specific code to facilitate easy swapping between implementations, enhancing system flexibility and interoperability.
-  Azure Integration: Successfully implemented integrations with Azure File Storage and Azure Key Vaults, transitioning away from AWS S3 and AWS Secrets Manager.
-  OAuth Integration Troubleshooting: Diagnosed and resolved OAuth integration issues, ensuring secure and seamless system access.
-  Maintaining and Updating OpenAI Plugin Setup: Consistently maintained and updated OpenAI plugin configurations, ensuring functional integration with ChatGPT.
-  Python, FastAPI, Pydantic, MyPy, Mongo, Redis, Pinecone, Ray, Azure, AWS, Git, GitLab, Postman
+  --START Mantium--
+
+      Company: Mantium
+      Location: Hybrid / Columbus, OH
+      Start Date: February 2023   End Date: current
+      Title: Senior Engineer
+
+      Enabled Customers to Search and Chat with their Data: Developed RAG (Retriever Augmented Generation) pipelines and integrated with OpenAI interfaces, enabling customers to conduct semantic searches and chat interactions over various data sources.
+      Fine-Tuning of GPT LLMs: Fine-tuned OpenAI's GPT Large Language Models to specific datasets, enhancing model relevance and accuracy.
+      Building Fine-Tuning Pipelines: Established fine-tuning pipelines, encompassing data acquisition, preprocessing, synthesis, hyperparameter tuning, and integration with the fine-tuned models.
+      Troubleshooting RAG Pipelines: Diagnosed and resolved issues within RAG pipelines, including text embedding, storage in vector databases and querying for document retrieval to enrich LLM prompts.
+      Enabling Chat over JSON documents: Used OpenAI's Assistant API to enable customers to effectively query their JSON documents
+      Optimized for Performance: Improved data processing speed by vectorizing code using Pandas.
+      Cloud Provider Code Abstraction: Abstracted cloud provider-specific code to facilitate easy swapping between implementations, enhancing system flexibility and interoperability.
+      Azure Integration: Successfully implemented integrations with Azure File Storage and Azure Key Vaults, transitioning away from AWS S3 and AWS Secrets Manager.
+      OAuth Integration Troubleshooting: Diagnosed and resolved OAuth integration issues, ensuring secure and seamless system access.
+      Maintaining and Updating OpenAI Plugin Setup: Consistently maintained and updated OpenAI plugin configurations, ensuring functional integration with ChatGPT.
+      Python, FastAPI, Pydantic, MyPy, Mongo, Redis, Pinecone, Ray, Azure, AWS, Git, GitLab, Postman
+
+  --END Mantium--
+
+  --START GoSecure--
+
+      Company: GoSecure
+      Location: Remote / Columbus, OH
+      Start Date: September 2020   End Date: February 2023
+      Title: Software Architect/AI Engineer
+
+      Contributed to the success of a cybersecurity AI product by improving its functionality, expanding its capabilities, and ultimately leading to its sale.
+      The product uses machine learning and statistics to analyze logs, namely
+      Hidden Markov Models, R, MGCV’s GAM, to model and weight normal versus threat activity
+      Assisted GoSecure in servicing a diverse client base across various industries and domains. Some examples: 
+      Wrangle and model time series data using R, tidyverse, xgboost, python, scikit-learn
+      Contribute to development of backend microservices - Java, Spring, docker, k8s, Rest, Postman, PostgreSQL
+      Convert SAS scripts to Big Query stored procedures
+      Automate SQL analysis through Selenium, JSQLParser and SQLite
+      Use regex to extract data from corporate documents
+      Set up and troubleshoot data pipelines - Pulsar, Logstash, Elastic, Kibana
+
+  --END GoSecure--
+
+  --START Vargo--
+
+      Company: Vargo
+      Location: Columbus, OH
+      Start Date: September 2016   End Date: October 2019
+      Title: Lead Software Engineer, Web Architecture
+
+      Empowered both customers and engineers by designing and building scalable web applications from the ground up, enabling efficient service of distribution centers.
+      Ensured Vargo's long term success through ongoing communication and knowledge sharing with fellow engineers and management.
+      Java, Python, Spring, REST,SQL, MySQL, RabbitMQ, Tomcat, Linux, Maven, Cucumber
+      HTML, CSS, SASS, Bootstrap, Javascript, Handlebars.js, jQuery, Websockets, Gulp
+
+  --END Vargo--
 
 
+  --START Teksystems (consulting at Franklin University)--
+
+      Company: Teksystems
+      Location: Columbus, OH
+      Start Date: January 2014   End Date: September 2016
+      Title: Senior Java Web Consultant
+
+      Helped Franklin build features for a Learning Management System (LMS)
+      Improved critical performance by redesigning and re-implementing analytics processing of the LMS
+      Facilitated smooth integration with customers' authentication systems by redesigning and re-implementing authentication module of the LMS
+      Assisted in the integration of the company's systems with third-party software vendors through the organization of joint sessions and the development of proof-of-concepts
+      Java, Spring, JUnit, Javascript, jQuery, REST, MySQL, Tomcat, Linux
+
+  --END Teksystems (consulting at Franklin University)--
 
 
-  * September 2020 – February 2023
-    Software Architect/AI Engineer  at GoSecure, Columbus, OH
-      
-  Contributed to the success of a cybersecurity AI product by improving its functionality, expanding its capabilities, and ultimately leading to its sale.
-  The product uses machine learning and statistics to analyze logs, namely
-  Hidden Markov Models, R, MGCV’s GAM, to model and weight normal versus threat activity
-  Assisted GoSecure in servicing a diverse client base across various industries and domains. Some examples: 
-  Wrangle and model time series data using R, tidyverse, xgboost, python, scikit-learn
-  Contribute to development of backend microservices - Java, Spring, docker, k8s, Rest, Postman, PostgreSQL
-  Convert SAS scripts to Big Query stored procedures
-  Automate SQL analysis through Selenium, JSQLParser and SQLite
-  Use regex to extract data from corporate documents
-  Set up and troubleshoot data pipelines - Pulsar, Logstash, Elastic, Kibana
+  --START JPMC, Quick Solutions, Nationwide Insurance--
 
+      Companies: JPMC, Quick Solutions, Nationwide Insurance
+      Location: Columbus, OH
+      Start Date: May 2005  End Date: January 2014
+      Titles: Lead Developer, IT Consultant, Sr. Software Developer
 
+      Facilitated Web Services development with dependent groups
+      Assigned developer tasks; Paired with more junior teammates to help out completion of dev tasks
+      Consulted at Netjets, AMP and IQ Innovations
+      Designed and implemented features in all tiers
+      Groovy, Grails, SOAP, REST, EJB, Websphere, Maven
+      Java, Spring, SQL, Hibernate, MySQL, HTML, CSS, Javascript, jQuery, Prototype
+      TestNG, jUnit, DBUnit, EasyMock, Mockito, Cucumber, Tomcat, Linux
+      Designed and implemented email subscription system via
+      PHP, Wordpress, Apache, Linux
+      Coordinated with QA and Business to analyze defects and develop bug fixes
 
-
-  * September 2016 – October 2019
-    Lead Software Engineer, Web Architecture at Vargo, Columbus, OH
-      
-  Empowered both customers and engineers by designing and building scalable web applications from the ground up, enabling efficient service of distribution centers.
-  Ensured Vargo's long term success through ongoing communication and knowledge sharing with fellow engineers and management.
-  Java, Python, Spring, REST,SQL, MySQL, RabbitMQ, Tomcat, Linux, Maven, Cucumber
-  HTML, CSS, SASS, Bootstrap, Javascript, Handlebars.js, jQuery, Websockets, Gulp
-
-
-
-
-  * January 2014 – September 2016
-    Java Web Consultant at Franklin University through Teksystems, Columbus, OH
-      
-  Helped Franklin build features for a Learning Management System (LMS)
-  Improved critical performance by redesigning and re-implementing analytics processing of the LMS
-  Facilitated smooth integration with customers' authentication systems by redesigning and re-implementing authentication module of the LMS
-  Assisted in the integration of the company's systems with third-party software vendors through the organization of joint sessions and the development of proof-of-concepts
-  Java, Spring, JUnit, Javascript, jQuery, REST, MySQL, Tomcat, Linux
-
-
-
-
-  * May 2005 – January 2014
-    Lead Developer, IT Consultant, Sr. Software Developer at JPMC, Quick Solutions, Nationwide, Columbus, OH
-      
-  Facilitated Web Services development with dependent groups
-  Assigned developer tasks; Paired with more junior teammates to help out completion of dev tasks
-  Consulted at Netjets, AMP and IQ Innovations
-  Designed and implemented features in all tiers
-  Groovy, Grails, SOAP, REST, EJB, Websphere, Maven
-  Java, Spring, SQL, Hibernate, MySQL, HTML, CSS, Javascript, jQuery, Prototype
-  TestNG, jUnit, DBUnit, EasyMock, Mockito, Cucumber, Tomcat, Linux
-  Designed and implemented email subscription system via
-  PHP, Wordpress, Apache, Linux
-  Coordinated with QA and Business to analyze defects and develop bug fixes
+  --END JPMC, Quick Solutions, Nationwide Insurance--
 
 ---END WORK EXPERIENCE---
 
@@ -93,30 +113,35 @@ I'm an engineer with hands-on experience in a variety of programming languages a
 
 ---EDUCATION---
 
---
-  * August 2020
-    Georgia Institute of Technology,   Master of Science in Computer Science - Machine Learning
+    -- Georgia Institute of Technology (Georgia Tech)
 
-	Took the following classes:    
-           CS 6601: Artificial Intelligence
-           CS 7641: Machine Learning
-           CS 8803: Reinforcement Learning
-           CS 6515: Graduate Algorithms
-           CS 7637: Knowledge-Based AI
-           CS 6476: Computer Vision
-           CS 7638: Artificial Intelligence for Robotics
-           CS 6242: Data and Visual Analytics
-           CS 6250: Computer Networks
-           CS 7646: Machine Learning for Trading
+        Master of Science in Computer Science - Machine Learning
+        Masters in Computer Science
 
+        Graduated August 2020
 
-		Some of the tech used: Python, NumPy, SciKit-Learn, TensorFlow, Pandas, OpenCV, R, Particle Filter, Kalman Filter and many more
+        Classes:
+               CS 6601: Artificial Intelligence
+               CS 7641: Machine Learning
+               CS 8803: Reinforcement Learning
+               CS 6515: Graduate Algorithms
+               CS 7637: Knowledge-Based AI
+               CS 6476: Computer Vision
+               CS 7638: Artificial Intelligence for Robotics
+               CS 6242: Data and Visual Analytics
+               CS 6250: Computer Networks
+               CS 7646: Machine Learning for Trading
 
---
-  * 
-    Franklin University,  Bachelor of Science in Computer Science 
+            Some of the tech used: Python, NumPy, SciKit-Learn, TensorFlow, Pandas, OpenCV, R, Particle Filter, Kalman Filter and many more
 
---
+    -- END Georgia Institute of Technology (Georgia Tech)
+
+    -- Franklin University
+
+        Bachelor of Science in Computer Science
+        Graduated May 2005
+
+    -- END Franklin University
 
 ONLINE COURSES
   * Coursera
@@ -136,7 +161,7 @@ https://university.mongodb.com/course_completion/769838d8d785411cb27641178c40e96
 
 ---Hobbies and Interests---
 
-Soccer, Geography, Foreign Languages(I have not given up on a potential spy career, though I only occasionally dabble in Spanish), Artificial Intelligence, Machine Learning, Reinforcement Learning, LLMs. I like animals and dream about a country home with a bunch of donkeys, barn cats, dogs, goats, cows, etc. I like being active, but running is boring, unless it is in nature and the latest Lex Fridman podcast is on.
+    Soccer, Geography, Foreign Languages(I have not given up on a potential spy career, though I only occasionally dabble in Spanish), Artificial Intelligence, Machine Learning, Reinforcement Learning, LLMs. I like animals and dream about a country home with a bunch of donkeys, barn cats, dogs, goats, cows, etc. I like being active, but running is boring, unless it is in nature and the latest Lex Fridman podcast is on.
 
 ---END Hobbies and Interests section---
 
@@ -152,6 +177,3 @@ Soccer, Geography, Foreign Languages(I have not given up on a potential spy care
 Voted as “The most valuable Eastern European on Earth…or at least in Central Ohio” in Nationwide’s Recreational Soccer League
 
 ---END---
-
-List of technologies:
-Python, Java, 
