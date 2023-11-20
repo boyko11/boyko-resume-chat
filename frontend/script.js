@@ -42,3 +42,23 @@ document.getElementById('chatForm').addEventListener('submit', async function(e)
         inputField.focus();
     }
 });
+
+
+async function loadConfig(config_name) {
+    try {
+        const response = await fetch(`/config/${config_name}`);
+        const person_config = await response.json();
+        customizeUIForPerson(person_config.name);
+    } catch (error) {
+        console.error('Error fetching config:', error);
+    }
+}
+
+function customizeUIForPerson(person_name) {
+    document.title = `${person_name} Resume Chat`;
+    const inputField = document.getElementById('queryInput');
+    inputField.placeholder = `Ask a question about ${person_name}...`;
+}
+
+loadConfig('PersonConfig');
+

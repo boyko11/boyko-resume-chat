@@ -1,7 +1,10 @@
-# Boyko Resume Chat
+# Resume Chat
 
-A Python web application using FastAPI to interact with OpenAI's Assistant API.
-The Assistant API is used to funny chat with Boyko's resume
+A Python web application that chats and answers questions about your resume.  
+It uses the OpenAI's Assistant API over FastAPI.  
+For this thing to work, You'd need an 
+1. [OpenAI API key ](https://platform.openai.com/api-keys)
+2. [OpenAI API Credits](https://platform.openai.com/account/billing/overview)(so calls to the Assitant API work)
 
 ## Setup and Installation
 
@@ -21,6 +24,14 @@ pip install -r requirements.txt
 
 ## Running the Application
 
+Replace the content of the config/data/Resume.txt file with your Resume.  
+Replace the name in config/PersonConfig.json with yours.  
+Update the Assistant's name, description and instructions config/AssistantConfig.json to your liking.  
+If the above instruction does not make sense, you may want to check out the [Assistant API docs](https://platform.openai.com/docs/assistants/overview)  
+
+The application creates an Assistant which can also be accessed from [OpenAI's platform UI](https://platform.openai.com/assistants).  
+If you want to use an Assistant you have already created, you could just put the Assistant's id in config/assistant_id.txt.  
+
 ### local
 Execute the following command to start the FastAPI server:
 
@@ -28,18 +39,18 @@ Execute the following command to start the FastAPI server:
 uvicorn main:app --reload
 ```
 
-The application will be available at `http://127.0.0.1:8000/chat`.
+The application will be available at `http://127.0.0.1:8000`.
 
 ### Docker
 build the image
 ```shell
-docker build -t boyko-resume-chat .
+docker build -t resume-chat .
 ```
 start it up
 ```shell
-docker run -p 8099:80 -e OPENAI_API_KEY={you_openai_api_key} boyko-resume-chat
+docker run -p 8099:80 -e OPENAI_API_KEY={you_openai_api_key} resume-chat
 ```
-access it at `http://127.0.0.1:8099/chat`.
+access it at `http://127.0.0.1:8099`.
 
 ## Usage
 

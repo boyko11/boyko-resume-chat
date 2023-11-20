@@ -1,1 +1,2 @@
-asst_sb2GyhqUoWoGqocsMwaoQFc8
+add your assistant id here if you'd like to use an existing assistant.
+If not this will get overwritten with the id of the assistant that gets created at start-up.

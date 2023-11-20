@@ -4,6 +4,7 @@ from time import sleep
 
 from openai import OpenAI, NotFoundError
 
+from config.config import AssistantConfig, PersonConfig
 from config.logger_config import logger
 from models.chat.chat_message import ChatMessage
 from services.chat.chat_provider_abstract import ChatProvider
@@ -55,6 +56,11 @@ class OpenAIAssistantAPIChatProvider(ChatProvider):
             )
             logger.info(f'run.status: {run.status}')
 
+        message = f"Hey Sorry, something went wrong with {PersonConfig.name}'s resume assistant. " \
+                  "I guess you'd just have to hire him to get to know him better."
+
+        print(message)
+
         # Check if the run was successful and create ChatMessage instance
         if run.status == "completed":
             messages = self.client.beta.threads.messages.list(thread_id=thread.id)
@@ -68,7 +74,7 @@ class OpenAIAssistantAPIChatProvider(ChatProvider):
             )
 
         return ChatMessage(
-            message="Hey Sorry, something went wrong with Boyko's resume assistant. " \
+            message=f"Hey Sorry, something went wrong with {PersonConfig.name}'s resume assistant. " \
                     "I guess you'd just have to hire him to get to know him better.",
             chat_id=thread.id
         )
@@ -95,25 +101,19 @@ class OpenAIAssistantAPIChatProvider(ChatProvider):
         else:
             logger.warn("assistant_id.txt file not found. Creating new assistant...")
 
-        boyko_resume_file = self.client.files.create(
-            file=open(os.path.join(BASE_DIR, 'data/Boyko_Todorov_Resume.txt'), "rb"),
+        resume_file = self.client.files.create(
+            file=open(os.path.join(BASE_DIR, 'config/data/Resume.txt'), "rb"),
             purpose='assistants'
         )
 
         # Create an assistant
         assistant = self.client.beta.assistants.create(
-            name="Boyko's Resume Assistant",
-            description="A friendly resume assistant, answering questions about Boyko's resume.",
-            instructions="""
-                       You are helpful, friendly and funny, but to the point assistant who answers questions about 
-                       Boyko's resume. You interact with the uploaded text file named Boyko_Todorov_Resume.txt, 
-                       providing answers related to Boyko Todorov's work experience, education, and other information 
-                       included in the resume. You maintain a light-hearted demeanor, yet you try to be short and 
-                       to-the-point in your answers.
-                   """,
+            name=AssistantConfig.name,
+            description=AssistantConfig.description,
+            instructions=AssistantConfig.instructions,
             tools=[{"type": "retrieval"}],
-            model="gpt-4-1106-preview",
-            file_ids=[boyko_resume_file.id]
+            model=AssistantConfig.model,
+            file_ids=[resume_file.id]
         )
 
         with open(os.path.join(BASE_DIR, 'config/assistant_id.txt'), "w") as assistant_id_file:

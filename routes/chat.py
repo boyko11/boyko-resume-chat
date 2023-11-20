@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from config.chat_provider_factory import get_chat_provider
+from services.chat.chat_provider_factory import get_chat_provider
 from config.logger_config import logger
 from models.chat.chat_message import ChatMessage
 
