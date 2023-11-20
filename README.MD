@@ -2,9 +2,14 @@
 
 A Python web application that chats and answers questions about your resume.  
 It uses the OpenAI's Assistant API over FastAPI.  
+Inspired by OpenAI's GPTs unavailability to non-plus users.  
+Background - I created a Resume GPT and put the link to it on my resume, so folks can chat with it.  
+It turned out only ChatGPT+ users could access GPTs.  
+This is my workaround for that - wrap the Assistant API with a web app.  
+
 For this thing to work, You'd need an 
 1. [OpenAI API key ](https://platform.openai.com/api-keys)
-2. [OpenAI API Credits](https://platform.openai.com/account/billing/overview)(so calls to the Assitant API work)
+2. [OpenAI API Credits](https://platform.openai.com/account/billing/overview)(without giving OpenAPI some money, the API calls won't work)
 
 ## Setup and Installation
 
@@ -59,5 +64,8 @@ Just Chat Away
 ## Contributing
 
 Unlikely that you will need to, but a PR would work
+
+## License
+I'd be psyched if you find this code useful. Do with it as you wish.
 
 
