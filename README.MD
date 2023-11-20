@@ -53,7 +53,7 @@ docker build -t resume-chat .
 ```
 start it up
 ```shell
-docker run -p 8099:80 -e OPENAI_API_KEY={you_openai_api_key} resume-chat
+docker run -d -p 8099:80 -e OPENAI_API_KEY={you_openai_api_key} resume-chat
 ```
 access it at `http://127.0.0.1:8099`.
 

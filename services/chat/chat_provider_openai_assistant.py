@@ -56,11 +56,6 @@ class OpenAIAssistantAPIChatProvider(ChatProvider):
             )
             logger.info(f'run.status: {run.status}')
 
-        message = f"Hey Sorry, something went wrong with {PersonConfig.name}'s resume assistant. " \
-                  "I guess you'd just have to hire him to get to know him better."
-
-        print(message)
-
         # Check if the run was successful and create ChatMessage instance
         if run.status == "completed":
             messages = self.client.beta.threads.messages.list(thread_id=thread.id)
