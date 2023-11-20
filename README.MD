@@ -1,5 +1,8 @@
 # Resume Chat
 
+Publicly available deployed example:  
+[boyko-chat.com](http://boyko-chat.com)
+
 A Python web application that chats and answers questions about your resume.  
 It uses the OpenAI's Assistant API over FastAPI.  
 Inspired by OpenAI's GPTs unavailability to non-plus users.  
