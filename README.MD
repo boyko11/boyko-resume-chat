@@ -12,7 +12,7 @@ This is my workaround for that - wrap the Assistant API with a web app.
 
 For this thing to work, You'd need an 
 1. [OpenAI API key ](https://platform.openai.com/api-keys)
-2. [OpenAI API Credits](https://platform.openai.com/account/billing/overview)(without giving OpenAPI some money, the API calls won't work)
+2. [OpenAI API Credits](https://platform.openai.com/account/billing/overview)(without giving OpenAI some money, the API calls won't work)
 
 ## Setup and Installation
 

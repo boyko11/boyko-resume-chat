@@ -32,7 +32,7 @@ I'm an engineer with hands-on experience in a variety of programming languages a
       Azure Integration: Successfully implemented integrations with Azure File Storage and Azure Key Vaults, transitioning away from AWS S3 and AWS Secrets Manager.
       OAuth Integration Troubleshooting: Diagnosed and resolved OAuth integration issues, ensuring secure and seamless system access.
       Maintaining and Updating OpenAI Plugin Setup: Consistently maintained and updated OpenAI plugin configurations, ensuring functional integration with ChatGPT.
-      Python, FastAPI, Pydantic, MyPy, Mongo, Redis, Pinecone, Ray, Azure, AWS, Git, GitLab, Postman
+      Python, FastAPI, Pydantic, MyPy, Mongo, Redis, Pinecone, Ray, Azure, AWS, Git, GitLab, Postman, NLP, Generative AI
 
   --END Mantium--
 
