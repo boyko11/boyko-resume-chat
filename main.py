@@ -1,12 +1,13 @@
 import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 from fastapi import FastAPI
 from routes.chat import chat_router
 from fastapi.staticfiles import StaticFiles
 
 from routes.config import config_router
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 app = FastAPI()
 
